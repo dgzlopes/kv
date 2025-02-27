@@ -34,11 +34,11 @@ A more fancy example is available in `example.js`.
 
 - When running the test locally:
     - The library attempts to use https://github.com/oleiade/xk6-kv/
-    - Run `xk6 build --with github.com/oleiade/xk6-kv`to generate a new binary that has it.
+    - Run `xk6 build --with github.com/oleiade/xk6-kv` to generate a new binary that has it.
 
 ### Cloud execution
 - When running the test in the cloud:
-    - The library uses aan external Redis instance.
+    - The library uses an external Redis instance.
     - Set the `KV_URL` [environment variable](https://grafana.com/docs/k6/latest/using-k6/environment-variables/) with a valid Redis URL.
 
 ## Upstash Integration
