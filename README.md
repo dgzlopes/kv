@@ -51,6 +51,4 @@ To use Upstash with this library:
 3. Get the Redis URL.
 4. Set the `KV_URL` environment variable with the Redis URL.
 
-That's it! You can now use the `kv` object to work with your data.
-
-Also, you can also use their Rest API or CLI to [create new DBs dynamically](https://upstash.com/docs/devops/developer-api/redis/create_database_global) (e.g. one per test run) or to pre-populate the DB with data.
+That's it! You can now use the `kv` object to work with your data. Also, you can also use their Rest API or CLI to [create new DBs dynamically](https://upstash.com/docs/devops/developer-api/redis/create_database_global) (e.g. one per test run) or to pre-populate the DB with data.
